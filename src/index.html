@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 3</title>
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body class="">
+    <div class="background">
+      <header id="header" class="p-4 h-[20%]">
+        <div class="font-extrabold flex justify-center items-center">
+          <h1 id="my-name" class=""></h1>
+        </div>
+      </header>
+
+      <main class="grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-2xl m-auto">
+<!-- Photo Profile start here -->
+        <div
+          class="card col-span-4 row-span-1 lg:row-span-2 flex justify-center align-middle items-center overflow-hidden"
+        >
+          <div
+            class="hover:translate-y-4 transition-transform p-4 inline-block"
+          ></div>
+
+          <img
+            src="/pp1.jpeg"
+            alt=""
+            class="scale-150 lg:pr-6.5 lg:mr-16 h-72 "
+            id="profile"
+          />
+        </div>
+        <!-- Photo Profile end here -->
+
+        <div
+          class="card col-span-4 lg:h-[200px] rounded-bl-xl rounded-br-xl bg-black text-white flex items-center flex-col font-bold justify-between p-3"
+        >
+          <a href="https://twitter.com/N76Gr33"
+            ><p class="-pt-10">Click me for a greet!</p></a
+          >
+          <a href="https://twitter.com/N76Gr33"
+            ><img src="/twitter.jpeg" alt=""
+          /></a>
+        </div>
+        <div
+          class="card col-span-4 lg:h-[200px] rounded-bl-xl bg-white flex items-center flex-col font-bold justify-between p-3"
+        >
+          <a href="https://www.linkedin.com/in/moehammad-rizky-5b5ba7246/"
+            ><p class="-pt-10">Click me for a greet!</p></a
+          >
+          <a href="https://www.linkedin.com/in/moehammad-rizky-5b5ba7246/">
+            <img
+              class="scale-100 hover:scale-120 transition duration-75"
+              src="/Linkedin-Logo.png"
+              alt=""
+          /></a>
+        </div>
+        <div
+          class="card h-[200px] col-span-4 lg:col-span-2 rounded-tl-xl flex flex-col justify-between bg-neutral-100 p-3"
+        >
+          <h2 class="brand">About Me</h2>
+          <p>
+            Im just a random person who like something new because I want to get more experience!
+          </p>
+        </div>
+        
+        <div id="confettiButton" class="card col-span-4 lg:col-span-3 text-center font-extrabold bg-gradient-to-r from-red-600 via-yellow-300 to-green-600"><button>Click Me for some Confettis</button></div>
+      </main>
+    </div>
+
+    <script type="module" src="./js/typed.js"></script>
+    <script type="module" src="./js/event.js"></script>
+    <script type="module" src="./js/confetti.js"></script>
+
+    
+    
+  </body>
+</html>
