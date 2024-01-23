@@ -14,10 +14,10 @@
         </div>
       </header>
 
-      <main class="grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-2xl m-auto">
-<!-- Photo Profile start here -->
+      <main class="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-2xl m-auto">
+        <!-- Photo Profile start here -->
         <div
-          class="card col-span-4 row-span-1 lg:row-span-2 flex justify-center align-middle items-center overflow-hidden"
+          class="card row-span-1 lg:row-span-2 flex justify-center align-middle items-center overflow-hidden"
         >
           <div
             class="hover:translate-y-4 transition-transform p-4 inline-block"
@@ -26,14 +26,14 @@
           <img
             src="/pp1.jpeg"
             alt=""
-            class="scale-150 lg:pr-6.5 lg:mr-16 h-72 "
+            class="scale-150 pr-6.5 lg:mr-16 h-72"
             id="profile"
           />
         </div>
         <!-- Photo Profile end here -->
-
+        <!-- Twitter Start here -->
         <div
-          class="card col-span-4 lg:h-[200px] rounded-bl-xl rounded-br-xl bg-black text-white flex items-center flex-col font-bold justify-between p-3"
+          class="card sm:col-span-1  h-[200px] rounded-bl-xl rounded-br-xl bg-black text-white flex items-center flex-col font-bold justify-between p-3"
         >
           <a href="https://twitter.com/N76Gr33"
             ><p class="-pt-10">Click me for a greet!</p></a
@@ -42,8 +42,11 @@
             ><img src="/twitter.jpeg" alt=""
           /></a>
         </div>
+        <!-- Twitter end here -->
+        <!-- LinkedIn Start here -->
+
         <div
-          class="card col-span-4 lg:h-[200px] rounded-bl-xl bg-white flex items-center flex-col font-bold justify-between p-3"
+          class="card sm:col-span-1 h-[200px] rounded-bl-xl bg-white flex items-center flex-col font-bold justify-between p-3"
         >
           <a href="https://www.linkedin.com/in/moehammad-rizky-5b5ba7246/"
             ><p class="-pt-10">Click me for a greet!</p></a
@@ -55,24 +58,33 @@
               alt=""
           /></a>
         </div>
+        <!-- LinkedIn End here -->
+        <!-- About me Start here -->
+
         <div
-          class="card h-[200px] col-span-4 lg:col-span-2 rounded-tl-xl flex flex-col justify-between bg-neutral-100 p-3"
+          class="card h-[200px] col-span-1 lg:col-span-2 rounded-tl-xl flex flex-col justify-between bg-neutral-100 p-3"
         >
           <h2 class="brand">About Me.</h2>
           <p>
-            Im just a random person who like something new because I want to get more experience!
+            Im just a random person who like something new because I want to get
+            more experience!
           </p>
         </div>
-        
-        <div id="confettiButton" class="card col-span-4 lg:col-span-3 text-center font-extrabold bg-gradient-to-r from-red-600 via-yellow-300 to-green-600"><button>Click Me for some Confettis</button></div>
+        <!-- About me End here -->
+        <!-- Confetti Start here -->
+
+        <div
+          id="confettiButton"
+          class="card col-span-3 text-center font-extrabold bg-gradient-to-r from-red-600 via-yellow-300 to-green-600"
+        >
+          <button>Click Me for some Confettis</button>
+        </div>
+        <!-- About me End here -->
       </main>
     </div>
 
     <script type="module" src="./js/typed.js"></script>
     <script type="module" src="./js/event.js"></script>
     <script type="module" src="./js/confetti.js"></script>
-
-    
-    
   </body>
 </html>
