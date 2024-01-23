@@ -8,3 +8,5 @@ Folder project ini juga disimpan di Github melalui git. Sebagaimana yang telah d
 
 
 Commit kedua adalah versi mobile dari project ini, sementara ini adalah versi PC, idk why idk how... tapi yang pasti saya melakukan kesalahan dalam membuat projectnya sehingga mengalami perubahan yang signifikan.
+
+namun karena keadaan cukup tidak memungkinkan untuk memperbaiki project ini, maka yang bisa saya lakukan cuma memberi penjelasan sederhana didalam file ini
